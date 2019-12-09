@@ -1,8 +1,4 @@
 const items = {
-		// apple: 2,
-		// car: 32,
-		// price: 19.
-
 	p1: 'Chris Brown',
 	p2: 'Zoe Morris',
 	p3: 'Adam Stone',
