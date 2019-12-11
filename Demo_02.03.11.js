@@ -11,8 +11,9 @@ function isLetter(inputArr) {
 console.log(isLetter(['23', 13, 'text']));
 
 
-1: const toUpperCase = str => str.split(' ').map( word 
-	          => word[0].toupperCase() + word.slice(1).join(' ');
+1: const toUpperCase = str => str.split(' ')
+				 .map(word => word[0].toupperCase() + word.slice(1)
+				 .join(' ');
 						 
 2: const toUpperRegEx = str => str.replace(/\b\w/g, match => match.toUpperCase());						 
 3;// function abreviation(name) {
