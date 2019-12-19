@@ -1,20 +1,21 @@
-function fibonacci(num) {
-//recursion
-	if (num <= 1)
-		return 1;
-	return fibonacci(num - 1) + fibonacci(num - 2);
-}
-console.log(fibonacci(5));
+function getFibonator() {
+  let prevElem = 0;
+  let current = 1;
 
-//with Loop - fastest way
-function fibonacci(num){
-	let a = 1, b = 0, temp;
-	while (num >= 0){
-		temp = a;
-		a = a + b;
-		b = temp;
-		num--;
-	}
-	return b;
+  return function () {
+    const result = prevElem + current;
+    prevElem = current;
+    current  = result;
+
+    return prevElem;
+  }
 }
-console.log(fibonacci(5));
+
+let fib = getFibonator();
+console.log(fib()); // 1
+console.log(fib()); // 1
+console.log(fib()); // 2
+console.log(fib()); // 3
+console.log(fib()); // 5
+console.log(fib()); // 8
+console.log(fib()); // 13
