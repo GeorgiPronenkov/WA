@@ -11,4 +11,4 @@ function deepCount(arr) {
 	}
 	return count
 }
-console.log(deepCount([1,2, [3,4,6, [5,6,7]]]));
+console.log(deepCount([1,2, [3,4,6, [5,6,7]]])); //10
