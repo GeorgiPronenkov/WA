@@ -10,6 +10,5 @@ function devicible(arrOfNumbers, divisor) {
 
 	//2nd:
 	return arrOfNumbers.filter(value => value % divisor === 0);
-
 }
 console.log(devicible([1,2,3,4,5,6], 2));

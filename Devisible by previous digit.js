@@ -9,8 +9,8 @@
 function divisible(number) {
 
 	return number
-		.toString()
-		.split('')
-		.map((value, index, arr) => value % arr[index - 1] === 0);
+		   .toString()
+		   .split('') //into array
+		   .map((value, index, arr) => value % arr[index - 1] === 0);
 }
 console.log(divisible(73312));

@@ -1,4 +1,5 @@
 function* idMaker() {
+
 	 let index = 0;
 	 while(true) {
 	 	 if (index === 3) {

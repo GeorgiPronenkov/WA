@@ -47,6 +47,7 @@ const inputObj = {
 
 let counter = 0;
 function deep(obj) {
+
 	counter ++;
 	 if (typeof obj === 'object') {
 	    for (const key in obj) {

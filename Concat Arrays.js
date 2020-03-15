@@ -5,7 +5,7 @@ function merge(arr1, arr2) {
 	return arr1.concat(arr2);
 	
 	//
-	return merged=[...arr1, ...arr2];
+	return merged = [...arr1, ...arr2];
 	
 	//
 	arr1.push(...arr2); 
