@@ -3,6 +3,7 @@ function checkInArr(arr) {
 }
 
 function isBalanced(input) {
+
 	let arr = [];
 	for (let i = 0; i < input.length; i++) {
 		let bracket = input.charAt(i);
@@ -11,7 +12,7 @@ function isBalanced(input) {
 		} else if (bracket === ')') {
 		    //check if there is an opening bracket at arr
 			if (checkInArr(arr) === '(') {
-				//remove the oppening bracket
+				//remove the opening bracket
 			    arr.pop();
 			} else {
 			    return false;

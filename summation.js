@@ -1,7 +1,8 @@
 function sum(number) {
+
 	let sum = 0;
 	for (let i = number; i > 0; i--) {
-		sum += i
+		sum += i;
 	}
 	return sum
 

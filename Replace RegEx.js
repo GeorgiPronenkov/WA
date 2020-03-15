@@ -6,12 +6,13 @@ these characters: %$&/£?@/. * Return all in capital letters */
 
 function cleanString(input) {
 	
-	1://
+	//1:
 	return input.replace(/[^a-z !]/gi, '').toUpperCase();
 	/**
 		symbols to remove: [\d%$&/£?@.]/gi;
 	*/
-	2://
+
+	//2:c
 	let  replaced = (input) => {
 		return input.replace(/[\d%$&/£?@.]/gi, '').toUpperCase();
 	};

@@ -9,4 +9,4 @@ function solve(arr,nth) {
 
 	return arr.sort((a, b) => a - b)[nth-1]; //?
 }
-console.log(solve([6,1,2,4],3));
+console.log(solve([6,1,2,5,8,4],3)); //4

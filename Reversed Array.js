@@ -6,11 +6,11 @@
 //string-split-reduceRight
 
 function reverced(number) {
+
 	let nums = number.toString();
-	let newin = Array
-		.from(nums)
-		.map(Number)
-		.reverse();
-	return  newin;
+	let newin = Array.from(nums)
+			  	.map(Number)
+			  	.reverse();
+	return newin;
 }
 console.log(reverced(348597));

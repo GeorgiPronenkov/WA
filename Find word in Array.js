@@ -2,8 +2,8 @@ function wordSearch(wordFind, text) {
 
 	let findInText = text.split(' ');
 	let result = findInText
-		.filter(word => word === wordFind)
-		.join(', ');
+			   .filter(word => word === wordFind)
+			   .join(', ');
 	if (result.length > 1) {
 		 return true;
 	}

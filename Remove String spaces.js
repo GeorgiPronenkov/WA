@@ -1,4 +1,5 @@
 function noSpaces(input) {
+
 	return input.replace(/^\s+|\s+$/g, '');
 	
 	//2
