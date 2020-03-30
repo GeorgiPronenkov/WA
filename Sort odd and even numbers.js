@@ -1,6 +1,5 @@
 function sort(arr) {
-
-	let sorted =  arr.sort(function(a,b) {
+	let sorted = arr.sort(function(a,b) {
 	  	return (a & 1) - (b & 1) || a-b;
 	});
 

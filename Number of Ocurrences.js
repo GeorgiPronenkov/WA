@@ -1,5 +1,4 @@
 function charCount(text, char) {
-
 	//with regEx
 	const matches = text.match(new RegExp(char, 'g'));
 	return matches ? matches.length : 0;

@@ -1,6 +1,6 @@
 function noSpaces(input) {
 
-	return input.replace(/^\s+|\s+$/g, '');
+	return input.replace(/^\s+|\s+$/g, ''); //input.replace(/ /g, '');
 	
 	//2
 	const noSpace = x => x.replace(/ /g, '');

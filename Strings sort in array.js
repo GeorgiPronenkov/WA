@@ -1,5 +1,4 @@
 function sort(arr) {
-
 	let defaultSort = arr.sort((a,b) => {
 	  	return a.toString()
 				.localeCompare(b);

@@ -11,7 +11,6 @@ function setURL(route, baseURL = 'https://jsonplaceholder.typicode.com/') {
 }
 
 function getUniqueUserIds(todos) {
-
 	const uniqueIds = todos.reduce((acc, current) => {
 		return acc.concat(current.userId);
 	}, []);
@@ -20,7 +19,6 @@ function getUniqueUserIds(todos) {
 }
 
 function filterTodos(todos, completed = true) {
-
 	return todos.filter(value => value.completed === completed);
 }
 

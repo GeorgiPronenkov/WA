@@ -3,7 +3,6 @@ function checkInArr(arr) {
 }
 
 function isBalanced(input) {
-
 	let arr = [];
 	for (let i = 0; i < input.length; i++) {
 		let bracket = input.charAt(i);

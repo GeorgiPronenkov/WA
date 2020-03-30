@@ -1,5 +1,4 @@
 function randomArray() {
-
 	let array = [];
 	while(array.length < 10) {
 		let random = Math.floor(Math.random() * 10);

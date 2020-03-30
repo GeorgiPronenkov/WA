@@ -233,7 +233,7 @@
 
  function phones() {
 	  return phoneNumbers = arr.map(p => p.phone)
-			.join('\n');
+							   .join('\n');
  }
  console.log(phones(arr));
 
@@ -257,7 +257,7 @@ console.log(userNames(arr));
 
 function cities() {
 	let city = arr.map(c => c.address.city)
-		 			  .join(',');
+		 		  .join(',');
 	return city.replace(/[M-Z][a-zA-z]+\S\D[A-Za-z]+.,/gm, '');
 }
 console.log(cities(arr));
@@ -265,7 +265,7 @@ console.log(cities(arr));
 function emails() {
 	let foundMails = arr.map(m => m.email);
 	 let mails = foundMails.filter(word =>
-					 word.includes('.biz'));
+					   word.includes('.biz'));
 	 return mails.join('\n')
 }
 console.log(emails(arr));
