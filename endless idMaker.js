@@ -1,9 +1,8 @@
 function* idMaker() {
-
 	 let index = 0;
 	 while(true) {
 	 	 if (index === 3) {
-	 	     return index
+	 	     return index;
 	 	 }
 		  yield index++;
 	 }

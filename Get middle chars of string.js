@@ -1,5 +1,4 @@
-function getMiddle(str)
-{
+function getMiddle(str) {
 	//1
 	 if (str.length % 2 === 0) {
 	     return str[(str.length / 2) -1] + str[str.length / 2]

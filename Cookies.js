@@ -11,7 +11,7 @@ class CookieHelper {
 
 	 static readCookie(name) {
 	 	 return this.findCookie(name).document.cookie
-			  .replace(/.*=/gm, '');
+			  		.replace(/.*=/gm, '');
 	 	 //return foundCookie ? foundCookie.replace(`${name}=`, '') : null;
 		  //     }
 

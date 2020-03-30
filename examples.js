@@ -7,8 +7,8 @@ let strArray = [..."sky is blue"];
 
 let deeplyNested = [4,[5,6,[7,8],9]];
 const flatten = deeplyNested
- 			  .toString()
- 			  .split(',')
- 		      .map(Number); //=> [4,5,6,7,8,9]
+ 			    .toString()
+ 			    .split(',')
+ 		        .map(Number); //=> [4,5,6,7,8,9]
 
 

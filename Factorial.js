@@ -31,8 +31,7 @@ console.log(factorial(4));
 
  //with tern.operator
  function factorial(number){
-
-  return (number < 2) ? 1:factorial(number-1) * number;
+    return (number < 2) ? 1:factorial(number-1) * number;
  }
  console.log(factorial(4));
 

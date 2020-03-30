@@ -1,6 +1,4 @@
 /**
- * Sum of positive
- *
  * Given an array of numbers, return the sum of all of the positives ones.
  * [1,-4,7,12] => 1 + 7 + 12 = 20
  */
@@ -30,7 +28,6 @@ console.log(sumOfPositives([1,-4,7,12]));
 
 //3:
 function sumOfPositives(input) {
-
 	return input.reduce((result, currentVal) => {
 		if(currentVal > 0){
 			return result += currentVal;

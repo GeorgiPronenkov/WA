@@ -1,5 +1,4 @@
 function devicible(arrOfNumbers, divisor) {
-
 	// let resultArray = [];
 	// for (let num of arrOfNumbers) {
 	//      if (num % divisor === 0) {

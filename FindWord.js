@@ -1,6 +1,4 @@
 /**
- * Wordsearch
- *
  * Create a function wordSearch(word,text) that searches to see whether a word word is
 present in the given text variable. *
  * Text - "what makes the desert beautiful, said the little prince is that somewhere it hides a well"
@@ -8,7 +6,6 @@ present in the given text variable. *
 */
 
 function wordSearch(word, text) {
-	
 	//1:
 	return new RegExp('\\b' + word + '\\b').test(text);
 	

@@ -1,5 +1,4 @@
 function dublicate(input) {
-
 	let resultInput = input.split(' ');
 
 	return ([...new Set(resultInput)].join(' '));

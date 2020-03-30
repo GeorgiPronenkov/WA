@@ -1,10 +1,4 @@
-/**
- * Calculate Average number of Array
- *
- */
-
 function average(numbers) {
-
 	return numbers
 		   .reduce((a,b) => (a+b) / numbers.length);
 }
