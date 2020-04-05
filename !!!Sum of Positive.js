@@ -3,7 +3,7 @@
  * [1,-4,7,12] => 1 + 7 + 12 = 20
  */
 
-//1st
+//1:
  function positive(arr) {
  	for (let i = 0; i < arr.length; i++) {
 		if (arr[i] < 0) {
@@ -13,7 +13,8 @@
  		   sums += arr[i];
  		   return sums;
  		}
- }
+	}
+}	
 console.log(positive([1,-4,7,12]));
 
 //2: with filter and reduce

@@ -59,13 +59,14 @@ function deep(obj) {
 }
 deep(inputObj);
 
-// let counter = 0; //??????/
-// Object.entries(obj).map(([key]) => {
-// 		if (obj.hasOwnProperty(key) &&
-// 			(typeof obj[key] === "object")) {
-// 			deep(obj[key]);
-// 		} else {
-// 			console.log(obj[key]);
-// 		}
-// });
-//console.log(counter);
+//2
+let counter = 0; //??????/
+Object.entries(obj).map(([key]) => {
+		if (obj.hasOwnProperty(key) &&
+			(typeof obj[key] === "object")) {
+			deep(obj[key]);
+		} else {
+			console.log(obj[key]);
+		}
+});
+console.log(counter);
