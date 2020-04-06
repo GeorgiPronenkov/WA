@@ -24,3 +24,10 @@ function flattenSort(array) {
 }
 
 console.log(flattenSort([[3, 2, 1], [4, 6, 5], [], [10, 7, 8]]));
+
+//
+let deeplyNested = [4,[5,6,[7,8],9]];
+const flatten = deeplyNested
+ 			    .toString()
+ 			    .split(',')
+ 		        .map(Number); //=> [4,5,6,7,8,9]
