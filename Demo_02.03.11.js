@@ -5,7 +5,6 @@ function isLetter(inputArr) {
 			countNumbers++;
 		}
 	}
-
 	return countNumbers;
 }
 console.log(isLetter(['23', 13, 'text']));
