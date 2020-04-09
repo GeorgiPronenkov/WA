@@ -3,7 +3,7 @@
 
 function longest(s1, s2) {
 	 //return result = (s1, s2) => [...new Set(s1+s2)].sort().join('');
-	 return Array.from(new Set(s1 + s2))
+	 return Array.from(new Set(s1 + s2)) // return [...new Set(s1 + s2)]
 				 .sort()
 				 .join('');
 }

@@ -6,8 +6,8 @@
  */
 function divisible(number) {
 	return number
-		   .toString()
-		   .split('') //into array
+		   .toString() //
+		   .split('') //into array ~~Array.from()
 		   .map((value, index, arr) => value % arr[index - 1] === 0);
 }
 console.log(divisible(73312));
